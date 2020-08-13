@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>好運工作室</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -14,85 +14,92 @@
             padding: 0;
             box-sizing: border-box;
         }
-        nav{
-            height: 100px;
-            line-height: 100px;
-            width: 100%;
-            position: fixed;
-            background-color:#003366;
-            letter-spacing: 2px;
-        }
-        .logo{
-            width: 300px;
-            margin-left: 90px;
-        }
-        .logo img{
-            width: 100%;
-        }
-        .menu{
-            width: 800px;
-            margin-left: 180px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .menu a{
-            text-decoration: none;
-            color: #999999;
-        }
-        .menu li{
-            list-style: none;
-            display: block;
-        } 
-        /* nav END */
-        /* footer */
-        footer{
-            width: 100%;
-            background-color:#003366;
-        }
-        footer .icon img{
-            width: 50px;
-        }
-        footer .contact{
-            color: white;
-        }
-        footer p{
-            margin-bottom: 2px;
-        }
-        footer a{
-            display: block;
-        }
-        .copyright{
-            margin-top: -40px;
-        }
-        .copyright img{
-            width: 180px;
-        }
-        @media screen and (min-width:1700px) {
+        @media screen and (min-width:375px) {
+            nav{
+                height: 100px;
+                line-height: 100px;
+                width: 100%;
+                position: fixed;
+                background-color:#003366;
+                letter-spacing: 2px;
+            }
+            .logo{
+                width: 300px;
+                margin: auto;
+            }
+            .logo img{
+                width: 100%;
+            }
             .menu{
-                width: 960px;
-                margin-left: 250px;
+                display: none;
+            }
+            .menu a{
+                text-decoration: none;
+                color: #999999;
+            }
+            .menu li{
+                list-style: none;
+                display: block;
+            } 
+            /* nav END */
+            /* footer */
+            footer{
+                width: 100%;
+                background-color:#003366;
+            }
+            footer .icon img{
+                width: 50px;
+            }
+            footer .contact{
+                color: white;
+            }
+            footer p{
+                margin-bottom: 2px;
+            }
+            footer a{
+                display: block;
+            }
+            .copyright{
+                margin-top: -40px;
+            }
+            .copyright img{
+                width: 180px;
+            }
+        }
+        @media screen and (min-width:760px) {
+            
+        }
+        @media screen and (min-width:1280px) {
+            .menu{
+                width: 800px;
+                margin-left: 180px;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-around;
             }
         }
-        @media screen and (min-width:1800px) {
+        @media screen and (min-width:1620px) {
+            .menu{
+                width: 960px;
+                margin-left: 250px;
+            }
+        }
+        @media screen and (min-width:1720px) {
             .menu{
                 width: 960px;
                 margin-left: 300px;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
+            }
+        }
+        @media screen and (min-width:1820px) {
+            .menu{
+                width: 1080px;
+                margin-left: 300px;
             }
         }
         @media screen and (min-width:1920px) {
             .menu{
                 width: 1080px;
                 margin-left: 400px;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
             }
         }
     </style>
